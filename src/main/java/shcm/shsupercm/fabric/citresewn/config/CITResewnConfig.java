@@ -46,6 +46,16 @@ public class CITResewnConfig {
     public static final CITResewnConfig INSTANCE = read();
 
     /**
+     * Active instance of the current config.
+     */
+    public int maxAtlasSize = 16384;
+
+    /**
+     * Active instance of the current config.
+     */
+    public int numAtlases = 4;
+
+    /**
      * Reads the stored config.
      * @see #FILE
      * @return the read config

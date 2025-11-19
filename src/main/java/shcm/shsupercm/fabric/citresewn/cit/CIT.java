@@ -27,6 +27,8 @@ public class CIT<T extends CITType> {
      */
     public final CITCondition[] conditions;
 
+    public Identifier assignedAtlas = null; // Nieuw: Voor multi-atlas assignment
+
     /**
      * The weight of this CIT to be used when resolving multiple CIT matching conflicts.
      */
